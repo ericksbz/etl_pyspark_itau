@@ -64,18 +64,23 @@ Após configurar o ambiente:
 Os resultados serão salvos na pasta output. Dentro de cada subpasta haverá um arquivo .csv contendo os dados das tabelas processadas.
 
 Exemplo do resultado esperado no output:
+
 Para resumo do cliente:
-cliente_id,nome,total_vendas,quantidade_vendas,ticket_medio
-10003,Carlos Lima,30500.2,1,30500.2
-10005,Lucas Rocha,50000.2,1,50000.2
-10002,Maria Souza,20000.2,1,20000.2
-10004,Ana Paula,10000.2,1,10000.2
-10001,João Silva,12345.2,1,12345.2
+| cliente_id | Nome         | Total Vendas | Quantidade Vendas | Ticket Médio |
+|------------|--------------|--------------|-------------------|--------------|
+| 10003      | Carlos Lima  | 30500.2      | 1                 | 30500.2      |
+| 10005      | Lucas Rocha  | 50000.2      | 1                 | 50000.2      |
+| 10002      | Maria Souza  | 20000.2      | 1                 | 20000.2      |
+| 10004      | Ana Paula    | 10000.2      | 1                 | 10000.2      |
+| 10001      | João Silva   | 12345.2      | 1                 | 12345.2      |
+
 
 Para balanço de produtos:
-produto_id,total_vendas_produto,quantidade_vendas_produto,ticket_medio_produto
-10002,20000.2,1,20000.2
-10001,22345.4,2,11172.7
-10003,30500.2,1,30500.2
-10004,50000.2,1,50000.2
+| produto_id | Total Vendas Produto | Quantidade Vendas Produto | Ticket Médio Produto |
+|------------|---------------------|--------------------------|---------------------|
+| 10002      | 20000.2             | 1                        | 20000.2             |
+| 10001      | 22345.4             | 2                        | 11172.7             |
+| 10003      | 30500.2             | 1                        | 30500.2             |
+| 10004      | 50000.2             | 1                        | 50000.2             |
+
 
