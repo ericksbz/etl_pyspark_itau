@@ -1,11 +1,19 @@
 # etl_pyspark_itau
 
 Este repositório contém a solução desenvolvida para o teste técnico do Itaú Unibanco, referente à vaga de Analista de Dados Pleno. O projeto consiste na criação de um processo ETL utilizando PySpark, executado em ambiente local.
-💻 Ambiente de Desenvolvimento
 
+# 🎯 Objetivo
+
+Ler duas fontes de dados (clientes.csv e vendas.txt), realizar transformações e gerar dois arquivos consolidados:
+
+    resumo_clientes.csv: mostra total de vendas, quantidade e ticket médio por cliente
+    resumo_produtos.csv: mostra total de vendas, quantidade e ticket médio por produto
+
+
+# 💻 Ambiente de Desenvolvimento
 O projeto foi desenvolvido em uma máquina virtual (Oracle VirtualBox) com Ubuntu 24.04.2 e utilizando a IDE Visual Studio Code.
-⚙️ Requisitos e Configuração do Ambiente
 
+# ⚙️ Requisitos e Configuração do Ambiente
 Para garantir o correto funcionamento do projeto, recomenda-se o uso das seguintes versões:
 
     JDK: 17
@@ -16,9 +24,9 @@ Para garantir o correto funcionamento do projeto, recomenda-se o uso das seguint
 
     pytest: para execução dos testes
 
-⚠️ Importante: Certifique-se de que o JDK e o PySpark estão em versões compatíveis. Versões divergentes podem causar falhas na execução.
+# ⚠️ Importante: Certifique-se de que o JDK e o PySpark estão em versões compatíveis. Versões divergentes podem causar falhas na execução.
 
-🚀 Passo a Passo para Execução
+# 🚀 Passo a Passo para Execução
 
 1 - Criar ambiente virtual:
 python3 -m venv venv
