@@ -32,8 +32,8 @@ def main():
         sys.exit(1)
 
     try:
-        salvar_resultados(resumo_clientes, "output/resumo_clientes.csv")
-        salvar_resultados(resumo_produtos, "output/balanco_produtos.csv")
+        salvar_resultados(resumo_clientes, "output/resumo_clientes")
+        salvar_resultados(resumo_produtos, "output/balanco_produtos")
     except Exception as e:
         print(f"[ERRO] Falha ao salvar os resultados: {e}")
         spark.stop()
